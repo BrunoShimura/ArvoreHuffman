@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>Huffman</title>
+</head>
+
+<body>
+  <header class="principal">
+    <main>
+      <div class="menu">
+        <img class="arvore" src="./img/tree.png">
+        <img class="univem" src="./img/univem.png">
+        <div class="nome">Árvore de Huffman</div>
+      </div>
+    </main>
+  </header>
+  <form name="form" action="">
+    <div class="frase">
+      <input placeholder="Digite a frase..." type="text" name="texto" size="100" />
+    </div>
+    <div class="botao">
+      <a>Executar</a>
+    </div>
+    <div class="codificado">
+      Código:
+      <input type="text" id="cod" size="100" readonly />
+    </div>
+    <div class="decodificado">
+      Frase:
+      <input type="text" id="dcod" size="100" readonly />
+    </div>
+    <div class="tabela">
+      <table id="tb">
+        <tr>
+          <th>Código</th>
+          <th>String</th>
+        </tr>
+        <tr>
+          <td>null</td>
+          <td>null</td>
+        </tr>
+      </table>
+    </div>
+  </form>
+
+
+  <script src="main.js">
+  </script>
+</body>
+
+</html>
